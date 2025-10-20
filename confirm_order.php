@@ -60,7 +60,7 @@ function stkPush($phone, $amount, $order_id) {
         "Authorization: Bearer $token"
     ]);
 
-    $callback_url = "https://ovhub.co.ke/callback_url.php"; // change for live site
+    $callback_url = "https://swift-icpf.onrender.com/"; // change for live site
 
     $stkData = [
         "BusinessShortCode" => $businessShortCode,
